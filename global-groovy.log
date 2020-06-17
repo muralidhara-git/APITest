@@ -1,0 +1,84 @@
+2020-06-16 10:23:38,588 INFO  [log] 20
+2020-06-16 10:23:38,590 INFO  [log] 20
+2020-06-16 10:23:38,593 INFO  [log] <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:tem="http://tempuri.org/">
+   <soap:Header/>
+   <soap:Body>
+      <tem:Add>
+         <tem:intA>20</tem:intA>
+         <tem:intB>20</tem:intB>
+      </tem:Add>
+   </soap:Body>
+</soap:Envelope>
+2020-06-16 10:23:38,643 INFO  [log] <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:tem="http://tempuri.org/">
+   <soap:Header/>
+   <soap:Body>
+      <tem:Add>
+         <tem:intA>20</tem:intA>
+         <tem:intB>20</tem:intB>
+      </tem:Add>
+   </soap:Body>
+</soap:Envelope>
+2020-06-16 10:23:39,054 INFO  [log] Addition result is =40
+2020-06-16 10:23:39,056 INFO  [log] Value of SubIntb is =10
+2020-06-16 10:23:39,057 INFO  [log] <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:tem="http://tempuri.org/">
+   <soap:Header/>
+   <soap:Body>
+      <tem:Subtract>
+         <tem:intA>40</tem:intA>
+         <tem:intB>10</tem:intB>
+      </tem:Subtract>
+   </soap:Body>
+</soap:Envelope>
+2020-06-16 10:23:39,090 INFO  [log] <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:tem="http://tempuri.org/">
+   <soap:Header/>
+   <soap:Body>
+      <tem:Subtract>
+         <tem:intA>40</tem:intA>
+         <tem:intB>10</tem:intB>
+      </tem:Subtract>
+   </soap:Body>
+</soap:Envelope>
+2020-06-16 10:23:39,431 INFO  [log] The Subtraction Result is =30
+2020-06-16 10:23:39,433 INFO  [log] Subtraction result is =30
+2020-06-16 10:23:39,437 INFO  [log] Value of MultiIntb is =0
+2020-06-16 10:23:39,444 INFO  [log] <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:tem="http://tempuri.org/">
+   <soap:Header/>
+   <soap:Body>
+      <tem:Multiply>
+         <tem:intA>30</tem:intA>
+         <tem:intB>30</tem:intB>
+      </tem:Multiply>
+   </soap:Body>
+</soap:Envelope>
+2020-06-16 10:23:39,481 INFO  [log] <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:tem="http://tempuri.org/">
+   <soap:Header/>
+   <soap:Body>
+      <tem:Multiply>
+         <tem:intA>30</tem:intA>
+         <tem:intB>30</tem:intB>
+      </tem:Multiply>
+   </soap:Body>
+</soap:Envelope>
+2020-06-16 10:23:39,844 INFO  [log] The Multiplication Result is =900
+2020-06-16 10:23:39,847 INFO  [log] Multiplication Result is Greater Than  Zero, Division Request Run
+2020-06-16 10:23:39,850 INFO  [log] Multiplication result is =900
+2020-06-16 10:23:39,860 INFO  [log] Value of DivIntb is=10
+2020-06-16 10:23:39,865 INFO  [log] <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:tem="http://tempuri.org/">
+   <soap:Header/>
+   <soap:Body>
+      <tem:Divide>
+         <tem:intA>900</tem:intA>
+         <tem:intB>10</tem:intB>
+      </tem:Divide>
+   </soap:Body>
+</soap:Envelope>
+2020-06-16 10:23:39,900 INFO  [log] <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:tem="http://tempuri.org/">
+   <soap:Header/>
+   <soap:Body>
+      <tem:Divide>
+         <tem:intA>900</tem:intA>
+         <tem:intB>10</tem:intB>
+      </tem:Divide>
+   </soap:Body>
+</soap:Envelope>
+2020-06-16 10:23:40,243 INFO  [log] The Division Result is =90
